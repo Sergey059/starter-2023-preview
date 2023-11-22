@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preload" as="font"><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <title>Stoleshnicy</title>
+    <meta name="description" content="Столешницы">
+    <link rel="stylesheet" href="./css/style.min.css">
+  </head>
+  <body>
+    <header class="header" id="header">
+      <div class="header__top">
+        <div class="container">
+          <button class="header__modal">
+            <svg class="icon">
+              <use xlink:href="../images/svg-sprite.svg#icon-phone"></use>
+            </svg>
+          </button><a class="logo header__logo" href="index.html">
+            <picture>
+              <source type="image/webp" srcset="images/@1x/logo@1x.webp 1x, images/@2x/logo@2x.webp 2x"><img src="images/@1x/logo@1x.png" srcset="images/@2x/logo@2x.png 2x" alt="Фабрика столешниц Антарес" width="240" height="73">
+            </picture></a>
+          <div class="header__contacts"><a class="header__adress" href="kontakty.html">
+              <svg class="icon">
+                <use xlink:href="../images/svg-sprite.svg#icon-location"></use>
+              </svg><span class="header__contacts-text">Свердловская обл., г. Берёзовский, ул. Кирова 63, офис 301</span></a><a class="header__email" href="mailto:ooo.plastek@mail.ru">
+              <svg class="icon">
+                <use xlink:href="../images/svg-sprite.svg#icon-mail"></use>
+              </svg><span class="header__contacts-text">ooo.plastek@mail.ru</span></a>
+            <div class="header__connection"><a class="header__phone" href="tel:+73433858140">
+                <svg class="icon">
+                  <use xlink:href="../images/svg-sprite.svg#icon-phone"></use>
+                </svg><span class="header__contacts-text">+7 (343) 385-81-40</span></a><a class="header__ws" href="https://wa.me/79222067487" target="_blank">
+                <svg class="icon header__ws">
+                  <use xlink:href="../images/svg-sprite.svg#icon-whatsapp"></use>
+                </svg><span class="header__contacts-text">+7 (922) 206-74-87</span></a></div>
+          </div>
+          <button class="btn btn--outline header__btn"> <span>Заказать звонок</span></button>
+          <button class="burger header__burger" aria-label="Кнопка меню"><span class="burger__line"></span></button>
+        </div>
+      </div>
+      <div class="header__navigation">
+        <div class="header__navigation-box">
+          <form class="search header__search" action="/search" method="post">
+            <input class="search__input" type="text" placeholder="Введите Ваш запрос" name="search" required>
+            <button class="search__btn" type="button" aria-label="Найти на сайте">
+              <svg class="icon header__search-icon">
+                <use xlink:href="../images/svg-sprite.svg#icon-search"></use>
+              </svg>
+            </button>
+          </form>
+          <nav class="nav header__menu">
+            <ul class="nav__list">
+              <li class="nav__item"><a class="nav__link" href="o_kompanii.html">О нас</a>
+                <ul class="nav__sublist">
+                  <li class="nav__subitem"><a class="nav__sublink" href="o_kompanii.html">О компании</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="news.html">Новости</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="poleznaya_informaciya.html">Полезная информация</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="kontakty.html">Контакты</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="sertifikaty.html">Сертификаты</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="stat_partnerom.html">Наши дилеры</a></li>
+                </ul>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="catalog">Продукция</a>
+                <ul class="nav__sublist">
+                  <li class="nav__subitem"><a class="nav__sublink" href="stoleshnicy.html">Столешницы</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="stenovye_paneli.html">Стеновые панели</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="kromochnyj_material.html">Кромочный материал</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="furnitura.html">Фурнитура</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="fasady.html">Фасады</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="hpl-stoleshnicy.html">HPL-столешницы</a></li>
+                </ul>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="dekor.html">Декоры</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="uslugi.html">Услуги</a>
+                <ul class="nav__sublist">
+                  <li class="nav__subitem"><a class="nav__sublink" href="cex_raspila_i_kromleniya.html">Цех распила и кромления</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="dostavka.html">Доставка</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="samovyvoz.html">Самовывоз</a></li>
+                  <li class="nav__subitem"><a class="nav__sublink" href="upakovka.html">Упаковка</a></li>
+                </ul>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="akcii.html">Акции</a>
+              </li>
+              <li class="nav__item"><a class="nav__link" href="kontakty.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <div class="container">
+        <h1 class="title">Stoleshnicy</h1>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container footer__container">
+        <p class="footer__copy">© 2023</p>
+      </div>
+    </footer>
+    <script src="./js/script.min.js"></script>
+  </body>
+</html>
